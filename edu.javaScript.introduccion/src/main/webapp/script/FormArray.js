@@ -1,5 +1,5 @@
 /**
- * RECIBE: El número del formulario que quermos, se empieza por 0
+ * RECIBE: El número del formulario que queremos, se empieza por 0
  * DEVUELVE: Una alerta mostrando el nombre id del formulario
  */
  function nombreFormularioPorId(numeroFormulario){
