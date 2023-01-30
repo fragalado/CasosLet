@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="script/FormArray.js"></script>
+</head>
+<body>
+	<a href="index.html">Menu</a>
+	<form id="robby">
+	     <input
+	       type="button"
+	       onclick="nombreFormularioPorId(0)"
+	       value="robby's form" />
+	</form>
+	
+	<form id="dave">
+	  <input
+	    type="button"
+	    onclick="alert(document.forms[1].id);"
+		value="dave's form" />
+	</form>
+	
+	<!-- Aqui mostramos al hacer click el nombre del primer form -->
+	<form id="paul">
+	  <input
+	    type="button"
+	    onclick="alert(document.forms[0].id);" 
+		value="paul's form" />
+	</form>
+</body>
+</html>
